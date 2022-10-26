@@ -16,7 +16,7 @@ document.getElementById("player_answer").innerHTML = "Answer Turn - " + player2_
 function send() {
     number1 = document.getElementById("Number1").value;
     number2 = document.getElementById("Number2").value;
-    actual_answer = parseInt(Number1)*parseInt(Number2);
+    actual_answer = parseInt(number1)*parseInt(number2);
     console.log(actual_answer);
     question_number = "<h4>" + number1 + "X" + number2 + "</h4>";
     input_box = "<br> answer: <input type = 'text' id = 'input_check_box'>";
